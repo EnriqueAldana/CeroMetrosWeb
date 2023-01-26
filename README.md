@@ -46,4 +46,8 @@ Ejecutando el proyecto
 
 
 **Notas:**
+<<<<<<< HEAD
 Se puede instalar el codigo bajo Visual Studio Code para su mantenimiento.
+=======
+Se puede instalar el codigo bajo Visual Studio Code para su mantenimiento.
+>>>>>>> e5d2dad (Agregamos a MAuricio)
