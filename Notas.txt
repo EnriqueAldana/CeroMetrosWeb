@@ -4,6 +4,8 @@ git
 Si existe actualizar
 
 git status
+git add *
+git commit -m "Se actualiza portafolio"
 
 
 Actualizar a Existente si no existe.
