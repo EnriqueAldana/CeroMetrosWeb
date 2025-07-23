@@ -1,6 +1,12 @@
 git
 
-Actualizar a Existente
-git remote add origin https://github.com/EnriqueAldana/ROOWeb.git
+
+Si existe actualizar
+
+git status
+
+
+Actualizar a Existente si no existe.
+git remote add origin https://github.com/EnriqueAldana/CeroMetrosWeb.git
 git branch -M main
 git push -u origin main
