@@ -1474,12 +1474,16 @@
 
       let datos = new FormData(formulario);
       console.info(datos);
-      let peticion = {
-        method: 'POST',
-        body: datos,
-      }
+     let peticion = {
+                method:'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                 },
+                body: JSON.stringify(Object.fromEntries(datos))
+            }
 
-      fetch('http://cerometros.com:8080/email/form', peticion)
+            fetch('https://sftm9jhen6.execute-api.us-east-2.amazonaws.com/Inicial/emailSender',peticion)
+             
         .then(respuesta => respuesta.json())
         .then(respuesta => {
           console.log('respuesta', respuesta)
